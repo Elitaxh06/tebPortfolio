@@ -1,0 +1,21 @@
+#header{
+    width: 70%;
+
+}
+
+li:hover{
+    background-color: #565D7F;
+    color: #FFC934;
+}
+
+
+@media (max-width: 1137px){
+    #header{
+        width: 100%;
+    }
+}
+@media (max-width: 515px){
+    #header{
+        width: 100%;
+    }
+}

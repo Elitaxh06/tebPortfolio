@@ -1,0 +1,34 @@
+[
+    {
+        "id": 1,
+        "name": "E-Commerce",
+        "description": "I developed a fully functional e-commerce site designed to sell vehicle spare parts, accessories, and tools. The platform offers an intuitive, responsive interface and easy navigation, providing a smooth shopping experience. Built using the latest web technologies, it ensures fast performance and scalability, delivering an optimized and secure user experience.",
+        "link": "https://primeparts-cr.com/",
+        "github": "https://github.com/Elitaxh06/PrimeParts",
+        "img" : ""
+    },
+    {
+        "id": 2,
+        "name": "Freelance Web Services",
+        "description": "This is a personal website designed to showcase my freelance web development services. It highlights my skills in creating modern, responsive websites and provides easy ways for potential clients to get in touch.",
+        "link": "https://elitaxh06.github.io/freelancePage/",
+        "github": "https://github.com/Elitaxh06/freelancePage",
+        "img" : ""
+    },
+    {
+        "id": 3,
+        "name": "Task Manager",
+        "description": "A To-Do List and form application built with React, designed to enhance task management. The application uses localStorage to save tasks, allowing users to add and delete them while ensuring data persists even after refreshing the page.",
+        "link": "",
+        "github": "",
+        "img" : ""
+    },
+    {
+        "id": 4,
+        "name": "Online Library",
+        "description": "I developed this virtual library with an interactive catalog, allowing users to easily browse through published and unpublished books. The plataform fratures a user-friendly interface that enhances the reading experience and provides detailed information about each book.",
+        "link": "https://books-elitaxh.netlify.app/",
+        "github": "https://github.com/Elitaxh06/Library",        
+        "img" : ""
+    }
+]
