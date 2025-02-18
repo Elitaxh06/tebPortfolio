@@ -1,7 +1,5 @@
 import React from "react";
-import { useForm, ValidationError } from '@formspree/react';
 function Description() {
-    const [state, handleSubmit] = useForm("xjkgpbqj");
     
     return(
         <section className=" border-r border-slate-400 shadow-sm h-screen ">
