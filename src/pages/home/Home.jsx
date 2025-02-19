@@ -5,15 +5,16 @@ import { NavLink } from "react-router";
 import "./Home.css";
 function Home() {
     return(
-        <main className="grid grid-cols-1 lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1 gap-10 h-screen">
-            <div className="lg:mr-72 mr-0">
+        <main className="grid grid-cols-1 lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1 mb-6 md:mb-0 lg:mb-0 sm:mb-6">
+            
+            <div className="">
                 <Description />
             </div>
             <div className="flex flex-col items-center mr-5">
                 <div className="w-full">
                     <Navbar />
-                    <h1 className="text-white text-6xl font-bold mt-20">Hi 👋, <br /> I am <span className="text-yellow-400">Esteban Pizarro</span></h1>
-                    <p className="text-white mt-8 w-96">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quam, inventore nesciunt veniam quidem velit corrupti vel quasi consequuntur culpa labore reprehenderit ab magni atque laborum exercitationem. Doloremque, aliquid rem. Distinctio?</p>
+                    <h1 className="text-white text-6xl font-bold mt-20">Hi 👋, <br /> I am <span className="text-yellow-400">Esteban</span></h1>
+                    <p className="text-white mt-8 w-96">I'm a Frontend Developer specialized in creating engaging UX and UI, with solid Backend knowledge. I'm committed to continuous learning and eager to contribute my expertise to innovative projects.</p>
                 </div>
                 <div className="mt-10 flex gap-5">
                     <button className="hover:scale-105 transition-transform duration-300 h-8 w-32 rounded-lg cursor-pointer" id="buttonCv">View my Cv 👀</button>

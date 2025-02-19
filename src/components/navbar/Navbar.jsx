@@ -7,22 +7,22 @@ function Navbar() {
             <nav>
                 <ul className="flex items-center gap-2">            
                         <NavLink to="/" className="text-lg lis">
-                            <li className="w-18 h-10 rounded-lg flex justify-center items-center">
+                            <li className="w-18 h-10 rounded-lg li flex justify-center items-center">
                                 About
                             </li>
                         </NavLink>
                         <NavLink to="/projects" className="text-lg lis">
-                            <li className="w-20 h-10 rounded-lg flex justify-center items-center">
+                            <li className="w-20 h-10 rounded-lg li flex justify-center items-center">
                                 Projects
                             </li>
                         </NavLink>         
                         <NavLink to="/skills" className="text-lg lis">
-                            <li className="w-14 h-10 rounded-lg flex justify-center items-center">
+                            <li className="w-14 h-10 rounded-lg li flex justify-center items-center">
                                 Skills
                             </li>
                         </NavLink>           
                         <NavLink href="" className="text-lg lis">
-                            <li className="w-24 h-10 rounded-lg flex justify-center items-center">
+                            <li className="w-24 h-10 rounded-lg flex li justify-center items-center">
                                 Experience
                             </li>
                         </NavLink>           

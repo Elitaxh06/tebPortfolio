@@ -1,8 +1,21 @@
-@media (max-width: 1023px) {
+.btn{
+    background-color: #374151;
+    color: #93C5FD;
+}
+
+@media(max-width: 1427px ) {
+    .fgr{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
+
+/* @media (max-width: 1023px) {
     .custom-lg {
         display : block;
     }
     .custom-md{
         display : none;
     }
-}
+
+} */

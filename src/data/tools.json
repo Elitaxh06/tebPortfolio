@@ -1,0 +1,14 @@
+[
+    {
+        "frontend" : ["React", "JavaScript", "Angular", "Tailwind", "Bootstrap", "TypeScript"]
+    },
+    {
+        "backend" : ["Python", "NodeJS"]
+    },
+    {
+        "database" : ["SQL Server"]
+    },
+    {
+        "programmingTools" : ["Git", "GitHub", "VS Cosde", "Postman" ]
+    }
+]
