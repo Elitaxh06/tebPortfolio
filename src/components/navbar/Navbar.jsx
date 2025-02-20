@@ -21,7 +21,7 @@ function Navbar() {
                                 Skills
                             </li>
                         </NavLink>           
-                        <NavLink href="" className="text-lg lis">
+                        <NavLink to="/experience" className="text-lg lis">
                             <li className="w-24 h-10 rounded-lg flex li justify-center items-center">
                                 Experience
                             </li>

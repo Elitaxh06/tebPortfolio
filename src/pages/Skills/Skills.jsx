@@ -6,21 +6,19 @@ import  tools  from "../../data/tools.json";
 import "./skills.css"
 function Skills() {
     return(
-        <section className="grid grid-cols-1 lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 mb-10">
-            <div className="hidden md:block lg:mr-72 mr-0">
-                <Descriptionn />
-            </div>
-            <div className="block md:hidden lg:mr-72 mr-0">
+        <section className="grid grid-cols-1 lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1 mb-10">
+            
+            <div className="lg:mr-72 mr-0">
                 <Description />
             </div>
-            <div className="mr-5">
-                <div className="w-full">
+            <div className="flex flex-col items-center mr-5">
+                <div className="w-full lg:ml-0 md:ml-4 sm:ml-4 ml-3">
                     <Navbar />
                     <h2 className="text-white text-4xl font-bold mt-20">Skills</h2>
                     <div className="grid grid-cols-2 gap-4 mt-5">
                         
-                        <div className="card">
-                            <h3 className="text-white text-lg mb-2 font-semibold">Frontend</h3>
+                        <div className="card rounded-2xl">
+                            <h3 className="text-white ml-2 mt-2 text-lg mb-2 font-semibold">Frontend</h3>
                             <ul className="grid grid-cols-1 lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-3 mb-2">
                                 
                                 <li className="flex items-center justify-start gap-2 ml-1 text-sm text-slate-200">
@@ -62,8 +60,8 @@ function Skills() {
                                 </li>
                             </ul>
                         </div>
-                        <div className="card w-full">
-                            <h3 className="text-white text-lg mb-2 font-semibold">Backend</h3>
+                        <div className="card rounded-2xl w-full">
+                            <h3 className="text-white ml-2 mt-2 text-lg mb-2 font-semibold">Backend</h3>
                             <ul className="grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-3">
                                 <li className="flex items-center justify-start gap-2 ml-2 text-sm text-slate-200">
                                     <span className="text-cyan-500 w-5 flex">
@@ -79,8 +77,8 @@ function Skills() {
                                 </li>
                             </ul>
                         </div>
-                        <div className="card">
-                            <h3 className="text-white text-lg mb-2 font-semibold">Data Base</h3>
+                        <div className="card rounded-2xl">
+                            <h3 className="text-white ml-2 mt-2 text-lg mb-2 font-semibold">Data Base</h3>
                             <ul className="grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-3">
                                <li className="flex items-center justify-start gap-2 ml-2 text-sm text-slate-200">
                                     <span className="text-cyan-500 w-5 flex">
@@ -90,12 +88,12 @@ function Skills() {
                                </li>
                             </ul>
                         </div>
-                        <div className="card">
-                            <h3 className="text-white text-lg mb-2 font-semibold">Programming Tools </h3>
+                        <div className="card rounded-2xl">
+                            <h3 className="text-white ml-2 mt-2 text-lg mb-2 font-semibold">Programming Tools </h3>
                             <ul className="grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-3">
                                 <li className="flex items-center justify-start gap-2 ml-2 text-sm text-slate-200">
                                     <span className="text-cyan-500 w-5 flex">
-                                        <svg xmlns="http://www.w3.org/2000/svg"  fill="currentColor" class="bi bi-git" viewBox="0 0 16 16">
+                                        <svg xmlns="http://www.w3.org/2000/svg"  fill="currentColor" className="bi bi-git" viewBox="0 0 16 16">
                                             <path d="M15.698 7.287 8.712.302a1.03 1.03 0 0 0-1.457 0l-1.45 1.45 1.84 1.84a1.223 1.223 0 0 1 1.55 1.56l1.773 1.774a1.224 1.224 0 0 1 1.267 2.025 1.226 1.226 0 0 1-2.002-1.334L8.58 5.963v4.353a1.226 1.226 0 1 1-1.008-.036V5.887a1.226 1.226 0 0 1-.666-1.608L5.093 2.465l-4.79 4.79a1.03 1.03 0 0 0 0 1.457l6.986 6.986a1.03 1.03 0 0 0 1.457 0l6.953-6.953a1.03 1.03 0 0 0 0-1.457"/>
                                         </svg>
                                     </span>

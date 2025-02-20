@@ -3,36 +3,36 @@
         "id": 1,
         "tech": "react, javascript, tailwind",
         "name": "E-Commerce",
-        "description": "I developed a fully functional e-commerce site designed to sell vehicle spare parts, accessories, and tools. The platform offers an intuitive, responsive interface and easy navigation, providing a smooth shopping experience. Built using the latest web technologies, it ensures fast performance and scalability, delivering an optimized and secure user experience.",
+        "description": "Built a responsive e-commerce platform for vehicle parts, focusing on performance, scalability, and security.",
         "link": "https://primeparts-cr.com/",
         "github": "https://github.com/Elitaxh06/PrimeParts",
-        "img" : "https://sergioescriba.com/wp-content/uploads/2019/01/tipos-clasificacion-paginas-web.png"
+        "img" : "https://elitaxh06.github.io/elitaxh-portfolio/assets/images/Primeparts.png"
     },
     {
         "id": 2,
         "tech": "react, javascript, bootstrap",
         "name": "Freelance Web Services",
-        "description": "This is a personal website designed to showcase my freelance web development services. It highlights my skills in creating modern, responsive websites and provides easy ways for potential clients to get in touch.",
+        "description": "Personal website showcasing my freelance web development skills and providing contact options for clients.",
         "link": "https://elitaxh06.github.io/freelancePage/",
         "github": "https://github.com/Elitaxh06/freelancePage",
-        "img" : "https://sergioescriba.com/wp-content/uploads/2019/01/tipos-clasificacion-paginas-web.png"
+        "img" : "https://elitaxh06.github.io/elitaxh-portfolio/assets/images/freelacePage.png"
     },
     {
         "id": 3,
         "tech": "react, javascript, tailwind",
         "name": "Task Manager",
-        "description": "A To-Do List and form application built with React, designed to enhance task management. The application uses localStorage to save tasks, allowing users to add and delete them while ensuring data persists even after refreshing the page.",
+        "description": "A React-based To-Do list app with localStorage for task management and data persistence.",
         "link": "https://elitaxh06.github.io/form-todo/",
         "github": "https://github.com/Elitaxh06/form-todo",
-        "img" : "https://sergioescriba.com/wp-content/uploads/2019/01/tipos-clasificacion-paginas-web.png"
+        "img" : "https://elitaxh06.github.io/elitaxh-portfolio/assets/images/to-do-list.png"
     },
     {
         "id": 4,
         "tech": "angular, typescript, bootstrap",
         "name": "Online Library",
-        "description": "I developed this virtual library with an interactive catalog, allowing users to easily browse through published and unpublished books. The plataform fratures a user-friendly interface that enhances the reading experience and provides detailed information about each book.",
+        "description": "Developed a book catalog with detailed information and an interactive interface for easy browsing.",
         "link": "https://books-elitaxh.netlify.app/",
         "github": "https://github.com/Elitaxh06/Library",        
-        "img" : "https://sergioescriba.com/wp-content/uploads/2019/01/tipos-clasificacion-paginas-web.png"
+        "img" : "https://elitaxh06.github.io/elitaxh-portfolio/assets/images/libreria.png"
     }
 ]

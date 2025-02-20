@@ -2,7 +2,7 @@ import React from "react";
 function Descriptionn() {
     
     return(
-        <section className=" border-r border-slate-400 shadow-sm fixed top-0 w-96 h-screen">
+        <section className=" border-r border-slate-400 shadow-sm fixed top-0 w-96 lg:min-h-screen md:min-h-0 sm:min-h-0 min-h-0">
             <div className="flex flex-col items-center justify-center pt-8">
                 <img src={new URL("../../assets/img/ProsonalPhoto1.jpeg", import.meta.url).href} alt="profile" className="object-cover w-56 h-48 rounded-full shadow-lg"/>
                 <h3 className="text-3xl text-white mt-2 font-semibold">Esteban Pizarro</h3>
