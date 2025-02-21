@@ -22,7 +22,7 @@ function Projects() {
             <div className="flex flex-col items-center mr-5">
                 <div className="w-full lg:ml-0 md:ml-4 sm:ml-4 ml-3">
                     <Navbar />
-                    <h2 className="text-white text-4xl font-bold mt-20">Projects</h2>
+                    <h2 className="text-white text-4xl font-bold mt-20 lg:text-left md:text-center sm:text-center text-center">Projects</h2>
                     {myProjects.map((project, index) => (
                         <div key={index} className="flex flex-col items-center mt-5 border-2 border-slate-600  hover:border-cyan-500 shadow-lg rounded-3xl">
                             <div className="grid grid-cols-1 lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1 gap-4">

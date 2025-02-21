@@ -33,7 +33,7 @@ function Experience() {
             <div className="flex flex-col items-center mr-5">
                 <div className="w-full mb-5 lg:ml-0 md:ml-4 sm:ml-4 ml-3">
                     <Navbar />
-                    <h3 className="text-white text-4xl font-bold mt-20">Experience</h3>
+                    <h3 className="text-white text-4xl font-bold mt-20 lg:text-left md:text-center sm:text-center text-center">Experience</h3>
                     <Card 
                         svg={meIcon}
                         title="About me"
@@ -44,7 +44,7 @@ function Experience() {
                         svg={educationIcon}
                         title="Education"
                         subtitle="Higher Technician in Full Stack Web Development"
-                        description="UCreativa - Universidad, Costa Rica - 2024"
+                        description="UCreativa - University, Costa Rica - 2024"
                     />
                     <CardCourses 
                         svg={coursesIcon}

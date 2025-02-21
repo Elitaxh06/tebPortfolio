@@ -8,13 +8,16 @@ function Skills() {
     return(
         <section className="grid grid-cols-1 lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1 mb-10">
             
-            <div className="lg:mr-72 mr-0">
+            <div className="hidden md:block">
+                <Descriptionn />
+            </div>
+            <div className="block md:hidden ">
                 <Description />
             </div>
             <div className="flex flex-col items-center mr-5">
                 <div className="w-full lg:ml-0 md:ml-4 sm:ml-4 ml-3">
                     <Navbar />
-                    <h2 className="text-white text-4xl font-bold mt-20">Skills</h2>
+                    <h2 className="text-white text-4xl font-bold mt-20 lg:text-left md:text-center sm:text-center text-center">Skills</h2>
                     <div className="grid grid-cols-2 gap-4 mt-5">
                         
                         <div className="card rounded-2xl">
