@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from "react-router";
 function Description() {
     
     return(
@@ -11,7 +12,9 @@ function Description() {
                 <p className="text-slate-300">
                 I am passionate about technology has always been a passion of mine, and in recent years, I've taken it more seriously, focusing on becoming a full stack developer. I'm always eager to learn, grow, and contribute my knowledge to innovative teams and projects.
                 </p> 
-                <a href="mailto:pizarroteb06@outlook.com" target="_blank" className="bg-yellow-400 rounded-md w-full h-11 font-semibold mt-5 flex justify-center items-center hover:scale-105 transition-transform duration-300">Contact me</a><br />
+                <NavLink to="/contact" className="bg-yellow-400 rounded-md w-full h-11 font-semibold mt-5 flex justify-center items-center hover:scale-105 transition-transform duration-300">
+                    Contact me
+                </NavLink>
             </article>
             
             <aside className="text-white flex justify-center gap-9 mt-8 ">
