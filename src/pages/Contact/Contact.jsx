@@ -10,7 +10,8 @@ function Contact() {
     if (state.succeeded) {
         navigate("/")
     }
-      return (
+    
+    return (
         <section className="">
             <div className="flex flex-col items-center justify-center">
                 <Navbar />
@@ -24,7 +25,7 @@ function Contact() {
                 </div>
                 <div >
                     <form onSubmit={handleSubmit} className="flex flex-col">
-                        <label className="text-slate-300 text-sm mt-4" htmlFor="name">Nombre</label>
+                        <label className="text-slate-300 text-sm mt-4" htmlFor="name">Name</label>
                         <input
                             className="border-2 border-slate-600 rounded-md hover:border-cyan-600 focus:border-cyan-600 focus:ring-3 focus:ring-cyan-600 bg-slate-700 text-white mt-1"
                             id="name"
@@ -61,12 +62,12 @@ function Contact() {
                             required
                             />
                         <div className="text-center">
-                            <button type="submit" className="bg-blue-500 rounded-sm h-8 text-white mt-4 button" disabled={state.submitting}>Send Message</button>
+                            <button type="submit" className="bg-blue-500 rounded-sm h-8 text-white mt-4 button hover:scale-105 transition-transform duration-300 hover:bg-blue-600 cursor-pointer" disabled={state.submitting}>Send Message</button>
                         </div>
                     </form>
                 </div>
             </div>
-            <div className="border-1 border-slate-600 bg-gray-800 rounded-md p-5">
+            <div className="border-1 border-slate-600 bg-gray-800 rounded-md p-5 ">
                 <MoreInfo />
             </div>
             </div>
