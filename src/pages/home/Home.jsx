@@ -2,6 +2,9 @@ import React from "react";
 import { Navbar } from "../../components/navbar/Navbar";
 import { Description } from "./Description";
 import { NavLink } from "react-router";
+
+import myCv from "../../assets/img/MainCv.pdf" 
+
 import "./Home.css";
 function Home() {
     return(
@@ -17,7 +20,7 @@ function Home() {
                     <p className="text-white mt-8 w-96">I'm a Frontend Developer specialized in creating engaging UX and UI, with solid Backend knowledge. I'm committed to continuous learning and eager to contribute my expertise to innovative projects.</p>
                 </div>
                 <div className="mt-10 flex gap-5">
-                    <button onClick={()=> window.open("https://elitaxh06.github.io/elitaxh-portfolio/assets/images/MyCv(2).pdf", "_blank")} className="hover:scale-105 transition-transform duration-300 h-8 w-32 rounded-lg cursor-pointer" id="buttonCv">View my Cv 👀</button>
+                    <button onClick={()=> window.open(myCv, "_blank")} className="hover:scale-105 transition-transform duration-300 h-8 w-32 rounded-lg cursor-pointer" id="buttonCv">View my Cv 👀</button>
                     <NavLink to="projects" className="hover:scale-105 transition-transform duratoin-300 flex items-center justify-center bg-yellow-400 h-8 rounded-lg w-32 cursor-pointer"><span>Projects</span></NavLink>
                 </div>
                 {/* <Cv /> */}

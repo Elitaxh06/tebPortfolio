@@ -6,10 +6,19 @@
         "description": "Built a responsive e-commerce platform for vehicle parts, focusing on performance, scalability, and security.",
         "link": "https://primeparts-cr.com/",
         "github": "https://github.com/Elitaxh06/PrimeParts",
-        "img" : "https://elitaxh06.github.io/elitaxh-portfolio/assets/images/Primeparts.png"
+        "img" : "primeparts"
     },
     {
         "id": 2,
+        "tech": "react, typescript, tailwind",
+        "name": "Pomodoro Timer",
+        "description": "A Pomodoro timer with notifications and task management, with data stored in localStorage for persistence.",
+        "link": "https://elitaxh06.github.io/pomodoro/",
+        "github": "https://github.com/Elitaxh06/pomodoro",
+        "img": "pomodoro"
+    },
+    {
+        "id": 3,
         "tech": "react, javascript, bootstrap",
         "name": "Freelance Web Services",
         "description": "Personal website showcasing my freelance web development skills and providing contact options for clients.",
@@ -18,21 +27,21 @@
         "img" : "https://elitaxh06.github.io/elitaxh-portfolio/assets/images/freelacePage.png"
     },
     {
-        "id": 3,
+        "id": 4,
         "tech": "react, javascript, tailwind",
         "name": "Task Manager",
         "description": "A React-based To-Do list app with localStorage for task management and data persistence.",
         "link": "https://elitaxh06.github.io/form-todo/",
         "github": "https://github.com/Elitaxh06/form-todo",
-        "img" : "https://elitaxh06.github.io/elitaxh-portfolio/assets/images/to-do-list.png"
+        "img" : "todo"
     },
     {
-        "id": 4,
+        "id": 5,
         "tech": "angular, typescript, bootstrap",
         "name": "Online Library",
         "description": "Developed a book catalog with detailed information and an interactive interface for easy browsing.",
         "link": "https://books-elitaxh.netlify.app/",
         "github": "https://github.com/Elitaxh06/Library",        
-        "img" : "https://elitaxh06.github.io/elitaxh-portfolio/assets/images/libreria.png"
+        "img" : "library"
     }
 ]

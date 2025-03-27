@@ -9,8 +9,25 @@ import { BootstrapIcon } from "../../components/icons/bootstrap";
 import { AngularIcon } from "../../components/icons/angular";
 import { TypescriptIcon } from "../../components/icons/typescript";
 import  myProjects  from "../../data/myProjects.json";
+
+// imagenes locales
+import pomodoroImg from "../../assets/img/pomodoro.png";
+import todoImg from "../../assets/img/todo.png";
+import primepartsImg from "../../assets/img/primepartss.png";
+import freelancePageImg from "../../assets/img/freelancer.png";
+import libraryImg from "../../assets/img/library.png";
+
 import "./Projects.css";
 function Projects() {
+
+    // mapear las imagenes locales
+    const imageMap = {
+        primeparts: primepartsImg,
+        pomodoro: pomodoroImg,
+        freelancePage: freelancePageImg,
+        todo: todoImg,
+        library: libraryImg,
+    }
     return(
         <section className="grid grid-cols-1 lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 mb-10 ">
             <div className="hidden md:block">
@@ -28,7 +45,7 @@ function Projects() {
                             <div className="grid grid-cols-1 lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1 gap-4">
                                 <div className="">
                                     <a href={project.link} target="_blank">
-                                        <img src={project.img} className="h-full w-full rounded-t-3xl sm:rounded-t-3xl md:rounded-t-3xl lg:rounded-l-3xl lg:rounded-r-none" alt="" />
+                                        <img src={imageMap[project.img] || project.img} className="h-full w-full rounded-t-3xl sm:rounded-t-3xl md:rounded-t-3xl lg:rounded-l-3xl lg:rounded-r-none" alt={`${project.name} image`} />
                                     </a>
                                 </div>
                                 <div className="mt-3">
@@ -38,6 +55,13 @@ function Projects() {
                                         <div className="grid grid-cols-2 fgr lg:grid-cols-3 md:grid-cols-3 sm:grid-cols-1 gap-4 px-4 mt-3 w-full">
                                             <ReactIcon />
                                             <JavascriptIcon />
+                                            <TailwindIcon />
+                                        </div>
+                                    )}
+                                    {project.tech === 'react, typescript, tailwind' && (
+                                        <div className="grid grid-cols-2 fgr lg:grid-cols-3 md:grid-cols-3 sm:grid-cols-1 gap-4 px-4 mt-3 w-full">
+                                            <ReactIcon />
+                                            <TypescriptIcon />
                                             <TailwindIcon />
                                         </div>
                                     )}
