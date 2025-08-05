@@ -1,12 +1,22 @@
 import React from "react";
 
 export function AngularIcon() {
-    return(
-        <button className="rounded-lg flex gap-1 h-6 justify-center items-center px-2 btn">
-            <span className="text-cyan-500 w-5 flex">
-                <svg  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  strokeWidth="2"  strokeLinecap="round"  strokeLinejoin="round" ><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M5.428 17.245l6.076 3.471a1 1 0 0 0 .992 0l6.076 -3.471a1 1 0 0 0 .495 -.734l1.323 -9.704a1 1 0 0 0 -.658 -1.078l-7.4 -2.612a1 1 0 0 0 -.665 0l-7.399 2.613a1 1 0 0 0 -.658 1.078l1.323 9.704a1 1 0 0 0 .495 .734z" /><path d="M9 15l3 -8l3 8" /><path d="M10 13h4" /></svg>
-            </span>
-            Angular
-        </button>
-    )
+      return (
+    <button className="rounded-lg flex gap-1.5 h-6 justify-center w-full items-center btn">
+      <span className="text-cyan-500 w-4 flex text-sm">
+        <svg
+          stroke="currentColor"
+          fill="currentColor"
+          strokeWidth="0"
+          role="img"
+          viewBox="0 0 24 24"
+          className="w-5 h-5"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path d="M9.93 12.645h4.134L12 9.03l-2.07 3.615zm.002-9.64L0 2.838l1.538 13.66L12 24l10.462-7.502L24 2.838 9.932 3.005zm8.007 14.411H16.4l-1.2-2.636H8.8l-1.2 2.636H6.062L12 5.334l5.939 12.082z" />
+        </svg>
+      </span>
+      Angular
+    </button>
+  )
 }

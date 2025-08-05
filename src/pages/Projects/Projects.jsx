@@ -8,6 +8,8 @@ import { JavascriptIcon } from "../../components/icons/javascript";
 import { BootstrapIcon } from "../../components/icons/bootstrap";
 import { AngularIcon } from "../../components/icons/angular";
 import { TypescriptIcon } from "../../components/icons/typescript";
+import { SqlServerIcon } from "../../components/icons/SqlServer";
+import { PostgreSqlIcon } from "../../components/icons/Postgresql";
 import  myProjects  from "../../data/myProjects.json";
 
 // imagenes locales
@@ -16,8 +18,10 @@ import todoImg from "../../assets/img/todo.png";
 import primepartsImg from "../../assets/img/primepartss.png";
 import freelancePageImg from "../../assets/img/freelancer.png";
 import libraryImg from "../../assets/img/library.png";
-
+import cursosImg from "../../assets/img/cursos-proyecto-fullstack.png"
+import tiendaticaImg from "../../assets/img/TiendaTicacr.png"
 import "./Projects.css";
+import { NodejsIcon } from "../../components/icons/Nodejs";
 function Projects() {
 
     // mapear las imagenes locales
@@ -27,6 +31,8 @@ function Projects() {
         freelancePage: freelancePageImg,
         todo: todoImg,
         library: libraryImg,
+        cursos: cursosImg,
+        tiendaticacr: tiendaticaImg
     }
     return(
         <section className="grid grid-cols-1 lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 mb-10 ">
@@ -79,8 +85,25 @@ function Projects() {
                                             <BootstrapIcon />
                                         </div>
                                     )}
-                                    <p className="text-slate-300"></p>
-                                    <p className="text-slate-300"></p>
+                                    {project.tech === "react, javascript, tailwind, nodejs, sqlserver" && (
+                                        <div className="grid grid-cols-2 fgr lg:grid-cols-3 md:grid-cols-3 sm:grid-cols-1 gap-4 px-4 w-full mt-3">
+                                            <ReactIcon />
+                                            <JavascriptIcon />
+                                            <TailwindIcon />
+                                            <NodejsIcon />
+                                            <SqlServerIcon />
+                                        </div>
+                                    )}
+                                    {project.tech === 'react, typescript, tailwind, nodejs, postgresql' && (
+                                        <div className="grid grid-cols-2 fgr lg:grid-cols-3 md:grid-cols-3 sm:grid-cols-1 gap-4 px-4 w-full mt-3">
+                                            <ReactIcon />
+                                            <TypescriptIcon />
+                                            <TailwindIcon />
+                                            <NodejsIcon />
+                                            <PostgreSqlIcon />
+                                        </div>
+                                    )}
+                                    {/*  */}
                                     <div className="flex gap-3 mt-3 mb-3 text-cyan-400 text-sm items-center justify-center">
                                         <a target="_blank" href={project.link} className="flex items-center justify-center hover:text-slate-200">
                                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-external-link w-4 h-4 mr-1"><path d="M15 3h6v6"></path><path d="M10 14 21 3"></path><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path></svg>

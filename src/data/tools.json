@@ -1,9 +1,9 @@
 [
     {
-        "frontend" : ["React", "JavaScript", "Angular", "Tailwind", "Bootstrap", "TypeScript"]
+        "frontend" : ["React", "JavaScript", "Tailwind","Angular", "Bootstrap", "TypeScript"]
     },
     {
-        "backend" : ["Python", "NodeJS"]
+        "backend" : ["Python", "NodeJS", "Express"]
     },
     {
         "database" : ["SQL Server"]
