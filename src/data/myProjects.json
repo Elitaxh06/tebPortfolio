@@ -2,8 +2,8 @@
     {
         "id": 1,
         "tech": "react, typescript, tailwind, nodejs, postgresql",
-        "name": "Personal Portfolio",
-        "description": "A React-based personal portfolio with a responsive design, using Express for server-side rendering.",
+        "name": "Local Business Showcase",
+        "description": "Web app for discovering local businesses in Costa Rica with detailed profiles, reviews, and ratings. Built with React, Redux, Node.js, Express (MVC), and PostgreSQL.",
         "link": "https://digital-storefronts.vercel.app/",
         "github": "https://github.com/Elitaxh06/Digital-Storefronts/tree/main?tab=readme-ov-file",        
         "img" : "tiendaticacr"
