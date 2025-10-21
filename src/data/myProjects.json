@@ -3,7 +3,7 @@
         "id": 1,
         "tech": "react, typescript, tailwind, nodejs, postgresql",
         "name": "Local Business Showcase",
-        "description": "Web app for discovering local businesses in Costa Rica with detailed profiles, reviews, and ratings. Built with React, Redux, Node.js, Express (MVC), and PostgreSQL.",
+        "description": "Full-stack SaaS platform for showcasing and managing local Costa Rican businesses. Includes user authentication, individual dashboards, and business management tools. Built with Angular, Node.js, Express, and SQL Server using the MVC architecture.",
         "link": "https://digital-storefronts.vercel.app/",
         "github": "https://github.com/Elitaxh06/Digital-Storefronts/tree/main?tab=readme-ov-file",        
         "img" : "tiendaticacr"
